@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Reikon Studio</title>
+    <link rel="icon" type="image/jpeg" href="assets/img/icons/IsotipoWhite.jpg">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;700&display=swap" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+    <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-dark fixed-top">
+        <div class="container">
+            <a class="navbar-brand" href="index.html">
+                <img src="assets/img/icons/Logotipo.png" alt="Reikon Studio" style="height: 30px;">
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item"><a class="nav-link" href="#carouselHero">Inicio</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#services">Servicios</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#portfolio">Portafolio</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#aboutus">Sobre Nosotros</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#contact">Contacto</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    
+    <div id="carouselHero" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-inner">
+            <div class="carousel-item active" data-bs-interval="1000">
+                <img src="assets/img/wallpaper.jpg" alt="Programación">
+                <div class="carousel-caption d-flex flex-column justify-content-center align-items-center">
+                    <h1>Elevamos tu presencia digital con diseño y tecnología</h1>
+                    <button class="cta-button">Trabajemos juntos</button>
+                </div>
+            </div>
+            <div class="carousel-item" data-bs-interval="1000">
+                <img src="assets/img/graphicdesigner.jpg" alt="Diseño Gráfico">
+                <div class="carousel-caption d-flex flex-column justify-content-center align-items-center">
+                    <h1>Elevamos tu presencia digital con diseño y tecnología</h1>
+                    <button class="cta-button">Trabajemos juntos</button>
+                </div>
+            </div>
+            <div class="carousel-item" data-bs-interval="1000">
+                <img src="assets/img/branding.jpg" alt="Branding">
+                <div class="carousel-caption d-flex flex-column justify-content-center align-items-center">
+                    <h1>Elevamos tu presencia digital con diseño y tecnología</h1>
+                    <button class="cta-button">Trabajemos juntos</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    
+    <section id="services" class="services">
+        <div class="container text-center">
+            <h2>Nuestros Servicios</h2>
+            <div class="row mt-4">
+                <div class="col-md-4">
+                    <i class="fas fa-paint-brush fa-3x mb-3"></i>
+                    <h4>Diseño Gráfico</h4>
+                    <p>Identidad visual, branding y diseño de logotipos para fortalecer la imagen de tu empresa.</p>
+                </div>
+                <div class="col-md-4">
+                    <i class="fas fa-code fa-3x mb-3"></i>
+                    <h4>Desarrollo Web</h4>
+                    <p>Creación de sitios web modernos y funcionales, optimizados para una experiencia de usuario excepcional.</p>
+                </div>
+                <div class="col-md-4">
+                    <i class="fas fa-mobile-alt fa-3x mb-3"></i>
+                    <h4>Aplicaciones</h4>
+                    <p>Desarrollo de aplicaciones personalizadas para potenciar negocios y mejorar la interacción con clientes.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <section id="portfolio" class="portfolio">
+        <main class="text-center text-white container py-5" id="projects">
+            <div class="container">
+                <h1 class="display-4 fw-bold">Nuestros Proyectos</h1>
+                <p class="lead fw-bold">Explora nuestro trabajo en diseño y desarrollo</p>
+            </div>
+            <div class="row">
+                <div class="col-md-6"><!-- UnusualCode -->
+                    <div class="project-card">
+                        <img src="assets/img/UnusualCode.jpg" alt="UnusualCode" class="img-fluid">
+                        <h3>UnusualCode</h3>
+                        <p>Identidad visual y desarrollo web.</p>
+                        <a href="pages/projects/UnusualCode.html" class="btn btn-light">Ver Proyecto</a>
+                    </div>
+                </div>
+                <div class="col-md-6"><!-- Gutierrez R&A -->
+                    <div class="project-card">
+                        <img src="assets/img/gutierrezR&A.jpg" alt="Gutierrez R&A" class="img-fluid">
+                        <h3>Gutierrez R&A</h3>
+                        <p>Diseño de identidad visual.</p>
+                    </div>
+                </div>
+                <div class="col-md-6"><!-- MelodyHive -->
+                    <div class="project-card">
+                        <img src="assets/img/MelodyHive.jpg" alt="MelodyHive" class="img-fluid">
+                        <h3>MelodyHive</h3>
+                        <p>Diseño de logotipo creativo.</p>
+                    </div>
+                </div>
+                <div class="col-md-6"><!-- ? -->
+                    <div class="project-card">
+                        <img src="assets/img/wallpaper.jpg" alt="GrillMaster" class="img-fluid">
+                        <h3>Proximamente...</h3>
+                        <p>???</p>
+                    </div>
+                </div>
+            </div>
+        </main>
+    </section>
+
+    <div class="text-center text-white py-5" id="aboutus">
+        <div class="container">
+            <h1 class="display-4 fw-bold">Sobre Nosotros</h1>
+            <p class="lead">Conoce más sobre nuestra historia, visión y equipo</p>
+        </div>
+    </div>
+    <section class="container py-5 text-white">
+        <div class="row">
+            <div class="col-md-6">
+                <h2>Misión</h2>
+                <p>En <strong>Reikon Studio</strong>, nos dedicamos a transformar ideas en experiencias visuales y digitales impactantes. Nuestra misión es proporcionar soluciones innovadoras en diseño gráfico, desarrollo web y branding, ayudando a nuestros clientes a destacar en un mundo digital en constante evolución.</p>
+            </div>
+            <div class="col-md-6">
+                <h2>Visión</h2>
+                <p>Buscamos ser reconocidos como un estudio creativo líder, donde la tecnología y la creatividad se combinan para crear proyectos únicos. Aspiramos a inspirar y conectar con audiencias a través de experiencias digitales memorables.</p>
+            </div>
+        </div>
+    </section>
+    
+    <section class="container py-5" id="contact">
+        <h2 class="text-center mb-4 display-4 fw-bold">Contáctanos</h2>
+        <div class="row justify-content-center">
+            <div class="col-md-6">
+                <form action="https://formsubmit.co/reikonstudio.contact@gmail.com" method="POST" class="contact-form">
+                    <div class="mb-3">
+                        <label for="nombre" class="form-label fw-bold">Nombre</label>
+                        <input type="text" class="form-control" id="nombre" name="Nombre" placeholder="Tu nombre" required>
+                    </div>
+                    <div class="mb-3">
+                        <label for="email" class="form-label fw-bold">Correo Electrónico</label>
+                        <input type="email" class="form-control" id="email" name="Correo" placeholder="Tu correo" required>
+                    </div>
+                    <div class="mb-3">
+                        <label for="asunto" class="form-label fw-bold">Asunto</label>
+                        <input type="text" class="form-control" id="asunto" name="Asunto" placeholder="Asunto del mensaje" required>
+                    </div>
+                    <div class="mb-3">
+                        <label for="mensaje" class="form-label fw-bold">Mensaje</label>
+                        <textarea class="form-control" id="mensaje" name="Mensaje" rows="4" placeholder="Tu mensaje" required></textarea>
+                    </div>
+                    <button type="submit" class="btn w-100">Enviar</button>
+                </form>
+            </div>
+        </div>
+    </section>
+    
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h3>Reikon Studio</h3>
+                    <p>Especializados en diseño gráfico, desarrollo web y aplicaciones. Transformamos ideas en experiencias digitales.</p>
+                </div>
+                <div class="footer-section">
+                    <h3>Contacto</h3>
+                    <p><i class="fas fa-envelope"></i> reikonstudio.contact@gmail.com</p>
+                    <p><i class="fas fa-phone"></i> +56 9 1234 5678</p>
+                    <p><i class="fas fa-map-marker-alt"></i> Santiago, Chile</p>
+                </div>
+                <div class="footer-section">
+                    <h3>Enlaces Rápidos</h3>
+                    <a href="#hero">Inicio</a>
+                    <a href="#about">Sobre Nosotros</a>
+                    <a href="#portfolio">Proyectos</a>
+                    <a href="#contact">Contacto</a>
+                </div>
+                <div class="footer-section social">
+                    <h3>Síguenos</h3>
+                    <a href="https://www.instagram.com/reikonstudio" target="_blank"><i class="fab fa-instagram"></i></a>
+                    <a href="https://github.com/reikonstudio" target="_blank"><i class="fab fa-github"></i></a>
+                    <a href="https://www.youtube.com/@ReikonStudio" target="_blank"><i class="fab fa-youtube"></i></a>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2025 Reikon Studio. Todos los derechos reservados.</p>
+            </div>
+        </div>
+    </footer>
+    
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script>
+        document.addEventListener("DOMContentLoaded", function () {
+            const navbar = document.querySelector(".navbar");
+
+            window.addEventListener("scroll", function () {
+                if (window.scrollY > 50) {
+                    navbar.classList.add("scrolled");
+                } else {
+                    navbar.classList.remove("scrolled");
+                }
+            });
+        });
+        document.addEventListener("DOMContentLoaded", function () {
+            const navbar = document.querySelector(".navbar");
+
+            window.addEventListener("scroll", function () {
+                if (window.scrollY > 50) {
+                    navbar.classList.add("shrink");
+                } else {
+                    navbar.classList.remove("shrink");
+                }
+            });
+        });
+    </script>    
+</body>
+</html>
